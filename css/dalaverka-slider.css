@@ -1,0 +1,102 @@
+/* Dalaverka's slider styles */
+div.dalav-slider{
+	width: 91%;
+	max-width: 1100px;
+	max-height: 500px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 1px;
+}
+
+div.dalav-slider div.display{
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	height: 500px;
+}
+
+div.dalav-slider div.display div.slide{
+	display: none;
+}
+
+div.dalav-slider div.display div.slide img.banner-image{
+	width: 100%;
+	max-width: 1100px;
+	height: 500px;
+}
+
+div.dalav-slider div.display div.current{
+	display: block;
+}
+
+/* Dalaverka's slider controls */
+div.dalav-slider div.controls{
+	position: relative;
+	z-index: 2;
+	bottom: 300px;
+}
+
+div.dalav-slider div.controls div.left-button{
+	float: left;
+	margin-left: 4px;
+}
+
+
+div.dalav-slider div.controls div.right-button{
+	float: right;
+	margin-right: 4px;
+}
+
+div.dalav-slider div.controls div.right-button button,
+div.dalav-slider div.controls div.left-button button{
+	background: transparent;
+	color: rgb(254, 250, 255);
+	border: 2px solid;
+	border-radius: 40px;
+	padding: 10px;
+	opacity: 0.4;
+}
+
+div.dalav-slider div.controls div.right-button button:hover,
+div.dalav-slider div.controls div.left-button button:hover{
+	background-color: rgb(136, 0, 163); 
+	border-color: rgb(136, 0, 163);
+}
+
+/* Dalaverka's slider pagination */
+div.dalav-slider div.pagination{
+	display: none;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	background: rgba(254, 250, 255, 0.7);
+	bottom: 92px;
+	padding-top: 4px;
+}
+
+div.dalav-slider div.pagination ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+div.dalav-slider div.pagination ul li.pag-slide{
+	display: inline;
+	list-style-type: none;
+}
+
+div.dalav-slider div.pagination ul li.pag-slide a img.thumbnail{
+	width: 110px;
+	height: 85px;
+	box-shadow: 0px 0px 1px;
+}
+
+div.dalav-slider div.pagination ul li.pag-slide a img.thumbnail:hover{
+	filter: brightness(20%);
+	-webkit-filter: brightness(50%);
+}
+
+div.dalav-slider div.pagination ul li.current a img.thumbnail{
+	border: 2px solid rgb(136, 0, 163);
+	box-sizing: border-box;
+	filter: brightness(55%);
+	-webkit-filter: brightness(55%);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+ 	<meta charset="utf-8">
+	<title>Dalaverka slider</title>
+
+	<!-- External CSS files -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<!-- Dalaverka CSS files -->
+	<link rel="stylesheet" type="text/css" href="css/dalaverka-slider.css">
+</head>
+<body>
+
+<!-- Dalaverka's slider -->
+<div class="dalav-slider">
+	<div class="display">
+		<div id="slide-1" class="slide current">
+			<a href="#" class="banner-link">
+				<img src="img/slide-1.jpg" class="banner-image">
+			</a>			
+		</div>
+		<div id="slide-2" class="slide">
+			<a href="#" class="banner-link">
+				<img src="img/slide-2.jpg" class="banner-image">
+			</a>			
+		</div>
+		<div id="slide-3" class="slide">
+			<a href="#" class="banner-link">
+				<img src="img/slide-3.jpg" class="banner-image">
+			</a>			
+		</div>
+	</div>
+	<div class="controls">
+	    <div class="left-button">
+	    	<button type="button" title="Предишен слайд"><i class="fas fa-chevron-left"></i></button>
+	    </div>
+	    <div class="right-button">
+	    	<button type="button" title="Следващ слайд"><i class="fas fa-chevron-right"></i></button>
+	    </div>
+	</div>
+	<div class="pagination">
+		<ul>
+			<li id="pag-slide-1" class="pag-slide current">
+				<a role="button">
+					<img src="img/slide-1.jpg" class="thumbnail">
+				</a>
+			</li>
+			<li id="pag-slide-2" class="pag-slide">
+				<a role="button">
+					<img src="img/slide-2.jpg" class="thumbnail">
+				</a>
+			</li>
+			<li id="pag-slide-3" class="pag-slide">
+				<a role="button">
+					<img src="img/slide-3.jpg" class="thumbnail">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- External JS libraries -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Dalaverka JS files -->
+<script type="text/javascript" src="js/dalaverka-slider.js"></script>
+
+</body>
+</html>
